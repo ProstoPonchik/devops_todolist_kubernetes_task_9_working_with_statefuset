@@ -102,6 +102,7 @@ The environment variables `NAME`, `USER`, `PASSWORD`, and `HOST` should referenc
 ## 7. Validate application deployment
 
 ```bash
+kubectl get pod todoapp-pod -n todoapp
 kubectl get deployment todoapp -n todoapp
 kubectl get pods -n todoapp
 kubectl get services -n todoapp
