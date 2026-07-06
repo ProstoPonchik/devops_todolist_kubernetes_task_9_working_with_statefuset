@@ -2,6 +2,8 @@
 
 ## 1. Create the cluster
 
+Use Python 3.8+ for local application checks.
+
 ```bash
 kind create cluster --config cluster.yml
 ```
